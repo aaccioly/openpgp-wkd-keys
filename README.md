@@ -1,14 +1,3 @@
-docs(readme): update documentation with key information and usage
-
-- Document PGP key fingerprint and import methods
-- Add explanation of Web Key Directory (WKD) functionality
-- Describe alternative key retrieval through Keybase
-- Explain repository structure and included resources
-- Include security considerations and verification best practices
-- Add references to relevant OpenPGP and WKD documentation# OpenPGP Web Key Directory
-
-This repository contains my public PGP keys in a Web Key Directory-friendly structure.
-
 ## About Web Key Directory (WKD)
 
 A Web Key Directory (WKD) is a standardized way to publish and discover OpenPGP keys on websites, enabling GnuPG and
