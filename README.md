@@ -15,16 +15,6 @@ You can import my key using GnuPG via WKD with:
 gpg --locate-keys one-of-my-email@addresses.com
 ```
 
-## Do you have a Keybase account?
-
-Yes, I do! You can also verify [my identity](https://keybase.io/aaccioly) on [Keybase](https://keybase.io) and retrieve
-my PGP key from there:
-
-```sh
-keybase follow aaccioly
-keybase pgp pull aaccioly
-```
-
 ## Repository structure
 
 This repository is structured as follows:
@@ -45,7 +35,7 @@ signed message).
 
 ### About Web Key Directory (WKD)
 
-A Web Key Directory (WKD) is a standardized way to publish and discover OpenPGP keys on websites, enabling GnuPG and
+A Web Key Directory (WKD) is a standardised way to publish and discover OpenPGP keys on websites, enabling GnuPG and
 other compatible tools to automatically find and download public keys. This repository is structured according to the
 WKD specification.
 
@@ -73,9 +63,20 @@ key via WKD. If a key is not available via WKD, you can assume that I don't want
 software signing key, a key for a specific project, an identity I'm phasing out, or a key I use for personal
 communication. If you need a specific key, please contact me directly.
 
+### Do you have a Keybase account?
+
+Yes, I do! You can also verify [my identity](https://keybase.io/aaccioly) on [Keybase](https://keybase.io) and retrieve
+my PGP key from there:
+
+```sh
+keybase follow aaccioly
+keybase pgp pull aaccioly
+```
+
 ## Additional resources
 
 - [GnuPG WKD documentation](https://wiki.gnupg.org/WKD)
 - [GnuPG Hosting a Web Key Directory](https://wiki.gnupg.org/WKDHosting)
 - [Keybase documentation](https://book.keybase.io/docs)
 - [OpenPGP Web Key Directory specification](https://datatracker.ietf.org/doc/html/draft-koch-openpgp-webkey-service)
+- [Tim Hårek Andreassen Blog Getting started with GPG](https://timharek.no/blog/getting-started-gpg/)
