@@ -1,8 +1,7 @@
-## About Web Key Directory (WKD)
+# openpgp-wkd-keys
 
-A Web Key Directory (WKD) is a standardized way to publish and discover OpenPGP keys on websites, enabling GnuPG and
-other compatible tools to automatically find and download public keys. This repository is structured according to the
-WKD specification.
+This repository contains my OpenPGP key information, published via Web Key Directory (WKD). You can use this information
+to send me encrypted messages, verify my signed messages, or authenticate my identity.
 
 ## My PGP key information
 
@@ -26,13 +25,6 @@ keybase follow aaccioly
 keybase pgp pull aaccioly
 ```
 
-## But don't you have other PGP keys?
-
-Yes, I do. In fact, I'm signing commits in this repository with a different key. However, I'm only publishing my main
-key via WKD. If a key is not available via WKD, you can assume that I don't want to share it publicly. It may be a
-software signing key, a key for a specific project, an identity I'm phasing out, or a key I use for personal
-communication. If you need a specific key, please contact me directly.
-
 ## Repository structure
 
 This repository is structured as follows:
@@ -48,6 +40,38 @@ This repository is structured as follows:
 - Consider using multiple verification methods (WKD, Keybase, or direct exchange such as an in-person verification or a
 signed message).
 - While WKD improves key distribution, it doesn't replace proper key verification.
+
+## FAQ
+
+### About Web Key Directory (WKD)
+
+A Web Key Directory (WKD) is a standardized way to publish and discover OpenPGP keys on websites, enabling GnuPG and
+other compatible tools to automatically find and download public keys. This repository is structured according to the
+WKD specification.
+
+### What's PGP?
+
+PGP (Pretty Good Privacy) is an encryption program that provides cryptographic privacy and authentication for data
+communication. It uses a combination of symmetric-key cryptography and public-key cryptography. PGP is used for signing,
+encrypting and decrypting texts, e-mails, files, directories, and whole disk partitions.
+
+### Why should I use PGP?
+
+PGP provides end-to-end encryption, ensuring that only the intended recipient can read the message. It also provides
+authentication, allowing the recipient to verify the sender's identity. PGP is widely used for secure communication,
+software distribution, and software signing.
+
+### How can I use PGP?
+
+You can use PGP by installing compatible software, such as GnuPG, and generating a key pair. You can then share your
+public key with others, allowing them to send you encrypted messages or verify your signed messages.
+
+### But don't you have other PGP keys?
+
+Yes, I do. In fact, I'm signing commits in this repository with a different key. However, I'm only publishing my main
+key via WKD. If a key is not available via WKD, you can assume that I don't want to share it publicly. It may be a
+software signing key, a key for a specific project, an identity I'm phasing out, or a key I use for personal
+communication. If you need a specific key, please contact me directly.
 
 ## Additional resources
 
