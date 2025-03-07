@@ -3,6 +3,7 @@
     --text-color: #333;
     --toggle-bg: #ddd;
     --toggle-circle: #fff;
+    --link-color: #0056b3;
 }
 
 .dark-mode {
@@ -10,6 +11,7 @@
     --text-color: #f5f5f5;
     --toggle-bg: #555;
     --toggle-circle: #aaa;
+    --link-color: #4dabf7;
 }
 
 html, body {
@@ -101,4 +103,22 @@ h1 {
     width: 100%;
     max-width: 352px;
     height: auto;
+}
+
+.help-link {
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.help-link a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.help-link a:hover {
+    text-decoration: underline;
 }
