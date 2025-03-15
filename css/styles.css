@@ -170,10 +170,15 @@ h2 {
     z-index: 1;
 }
 
+.help-link p {
+    margin: 0;
+}
+
 .help-link a {
     color: var(--link-color);
     text-decoration: none;
     font-weight: 500;
+    padding: 0 5px;
 }
 
 .help-link a:hover {
