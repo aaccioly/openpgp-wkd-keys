@@ -58,10 +58,12 @@ public key with others, allowing them to send you encrypted messages or verify y
 
 ### But don't you have other PGP keys?
 
-Yes, I do. In fact, I'm signing commits in this repository with a different key. However, I'm only publishing my main
-key via WKD. If a key is not available via WKD, you can assume that I don't want to share it publicly. It may be a
-software signing key, a key for a specific project, an identity I'm phasing out, or a key I use for personal
-communication. If you need a specific key, please contact me directly.
+Yes, I do. In fact, I'm signing commits in this repository with a different development key. You can download it as well
+as my main key from a single asc file [here](aaccioly.asc).
+
+If a key is not available via WKD, you can assume that I don't want to share it publicly. It may be a software signing
+key, a key for a specific project, an identity I'm phasing out, or a key I use for personal communication. If you need a
+specific key, please contact me directly.
 
 ### Do you have a Keybase account?
 
@@ -71,6 +73,19 @@ my PGP key from there:
 ```sh
 keybase follow aaccioly
 keybase pgp pull aaccioly
+```
+### How about Keyoxide?
+
+Yes, I also have a [Keyoxide](https://keyoxide.org) profile. Since you know my PGP key fingerprint, it's easy to find my
+profile there. Just search for `1BBD C23D 1853 255D 6415 D2EC 814E DF85 1AAB 370E`.
+
+### How about a public key server?
+
+My PGP key is also available at https://keys.openpgp.org/ and other public key servers. You can use the following
+command to retrieve my key:
+
+```sh
+gpg --keyserver hkps://keys.openpgp.org --recv-keys 1BBDC23D1853255D6415D2EC814EDF851AAB370E
 ```
 
 ## Additional resources
